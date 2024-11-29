@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="/css/camiseta.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+       <a class="camisetas" href="/index.html"><h1>Camisas</h1></a>    
+        </div>
+        <div class="carrinho">
+            <button id="cartButton">
+                Carrinho (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <div class="produto">
+                <img src="/imagens/camisaB.jpg" alt="Camiseta Básica">
+                <h3>Camiseta Básica</h3>
+                <p class="preco">R$ 49,90</p>
+                <br>
+                <h3>Tamanho</h3>
+          
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="pp">pp</option>
+                    <option value="p">p</option>
+                    <option value="m">m</option>
+                    <option value="g">g</option>
+                    <option value="gg">gg</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('Camiseta Básica', 49.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/camiseta-polo.webp" alt="Camiseta polo">
+                <h3>Camiseta Polo</h3>
+                <p class="preco">R$ 109,90</p>
+                <br>
+                <h3>Tamanho</h3>
+            <select>
+                <option selected disabled  value=""></option>
+                <option value="pp">pp</option>
+                <option value="p">p</option>
+                <option value="m">m</option>
+                <option value="g">g</option>
+                <option value="gg">gg</option>
+            </select>
+               <br>
+               <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('camiseta polo', 129.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/camiseta.jpeg" alt="camiseta com estampa">
+                <h3>Camiseta com Estampa</h3>
+                <p class="preco">R$ 149,90</p>
+            <br>
+            <h3>cor</h3>
+            <select>
+                <option selected disabled value="">cor</option>
+                <option value="vermelha">Vermelha</option>
+                <option value="verde">Verde</option>
+                <option value="preta">Preta</option>
+                <option value="branca">Branca</option>
+            </select>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+          
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="pp">pp</option>
+                    <option value="p">p</option>
+                    <option value="m">m</option>
+                    <option value="g">g</option>
+                    <option value="gg">gg</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('Jaqueta de Couro', 299.90)">Adicionar ao Carrinho</button><br>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/camiseta-corinthans.jpg" alt="camiseta de time ">
+                <h3>Camiseta de Time</h3>
+                <p class="preco">R$ 199,90</p>
+                
+                <br>
+                <h3>Tamanho</h3>
+          
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="pp">pp</option>
+                    <option value="p">p</option>
+                    <option value="m">m</option>
+                    <option value="g">g</option>
+                    <option value="gg">gg</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('camiseta de time ', 199.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 outlet Kabrum - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="/js/camiseta.js"></script>
+</body>
+</html>
+

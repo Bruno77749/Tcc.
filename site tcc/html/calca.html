@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="/css/calca.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+       <a class="calça" href="/index.html"><h1>Calças</h1></a>    
+        </div>
+        <div class="carrinho">
+            <button id="cartButton">
+                Carrinho (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <div class="produto">
+                <img src="/imagens/calcapreta.jpeg" alt="Calca Jogador Preta">
+                <h3>Calça Jogador Preta</h3>
+                <p class="preco">R$ 149,90</p>
+                <br>
+                <br>
+                <h3>Tamanhos</h3>
+          
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('calca jogador preta', 149.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/calcajogadorcinza.webp" alt="calça jogador cinza">
+                <h3>Calça Jogador Cinza </h3>
+                <p class="preco">R$ 109,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('calça jogador cinza', 109.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/calcabasica.jpeg" alt="adidas campus">
+                <h3>Calça Basica </h3>
+                <p class="preco">R$ 99,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('calça basica ', 99.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/calcamoletom.jpg" alt="calça moletom ">
+                <h3>Moletom</h3>
+                <p class="preco">R$ 99,90</p>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('moletom ', 99.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button class="finaizar"><a href="/html/finalizar.html">compra</a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 outlet Kabrum - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="/js/calca.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="/css/tenis.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+       <a class="camisetas" href="/index.html"><h1>Tenis</h1></a>    
+        </div>
+        <div class="carrinho">
+            <button id="cartButton">
+                Carrinho (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <div class="produto">
+                <img src="/imagens/nikecurt.jpg" alt="nike curt vision">
+                <h3>Nike Curt Vision</h3>
+                <p class="preco">R$ 349,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('nike curt vision', 49.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button><a href="finalizar.html">finalizar compra </a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/puma-suede.jpg" alt="puma suede">
+                <h3>PUMA Suede </h3>
+                <p class="preco">R$ 209,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('puma suede', 129.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button><a href="finalizar.html">finalizar compra </a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/adidas-campus.jpeg" alt="adidas campus">
+                <h3>Adidas CAMPUS</h3>
+                <p class="preco">R$ 249,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('adidas campus', 299.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button><a href="finalizar.html">finalizar compra </a></button>
+            </div>
+
+            <div class="produto">
+                <img src="/imagens/adidas-grand-court.jpg" alt="adidas grand curt ">
+                <h3>Adidas Grand Curt</h3>
+                <p class="preco">R$ 199,90</p>
+                <br>
+                <br>
+                <h3>Tamanho</h3>
+                <select>
+                    <option selected disabled  value=""></option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <br>
+                <br>
+                <button class="add-to-cart" onclick="adicionarAoCarrinho('adidas grand curt ', 199.90)">Adicionar ao Carrinho</button>
+                <br>
+                <br>
+                <button><a href="finalizar.html">finalizar compra </a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 outlet Kabrum - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="/js/tenis.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Compra Online</title>
+    <link rel="stylesheet" href="/css/finalizar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finalizar Compra</h1>
+        <div class="form-container">
+            <form id="payment-form">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                </div>
+                <div class="payment-options">
+                    <label>
+                        <input type="radio" name="payment-method" value="card" checked> Cartão de Crédito
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-method" value="pix"> PIX
+                    </label>
+                </div>
+
+                <div id="credit-card-info" class="payment-method">
+                    <div class="form-group">
+                        <label for="card-number">Número do Cartão</label>
+                        <input type="text" id="card-number" name="card-number" required placeholder="1234 5678 9012 3456">
+                    </div>
+                    <div class="form-group">
+                        <label for="card-expiry">Data de Vencimento</label>
+                        <input type="text" id="card-expiry" name="card-expiry" required placeholder="MM/AA">
+                    </div>
+                    <div class="form-group">
+                        <label for="card-cvc">CVC</label>
+                        <input type="text" id="card-cvc" name="card-cvc" required placeholder="123">
+                    </div>
+                </div>
+                <div>
+                  <label for="cep">cep</label>
+                  <input class="cep" type="text" name="cep" required placeholder="08-240-740">
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <label for="endereço com numero">endereço com numero</label>
+                    <input class="cep" type="text" name="endereço com numero" required placeholder="rua laurentino n 595">
+                  </div>
+                  <br>
+                  <br>
+
+            
+                <div id="pix-info" class="payment-method">
+                    <p> Copie os dados abaixo para realizar o pagamento via PIX de acordo com o valor da roupa:</p>
+                    <br>
+                    <div class="pix-details">
+                        <p><strong>Chave PIX:</strong>brunoinacioamorim@gmail.com</p>
+                        <p><strong>Cpf:</strong>241.003.558-23</p>
+                    </div>
+                </div>
+
+                <button  type="submit" class="submit-btn" ><a href="/index.html">finalizar compra</a></button>
+            </form>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+<script src="/js/finalizar.js"></script>
+</body>
+</html>
+
+
+   
+
+
